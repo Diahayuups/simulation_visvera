@@ -140,7 +140,7 @@ def load_json(filename):
 # --------------------- #
 verbal_data = load_json("hasil_final_evaluasi_assesment_verbal.json")
 nonverbal_data = load_json("hasil_final_evaluasi_assesment_noVerbal.json")
-final_data = load_json("hasil_final_evaluasi_assesment.json")e
+final_data = load_json("hasil_final_evaluasi_assesment.json")
 
 # --------------------- #
 # 📤 UPLOAD SECTION
@@ -297,6 +297,7 @@ st.markdown("""
     Project Capstone Asah led by Dicoding in association with Accenture
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
