@@ -127,27 +127,20 @@ with st.sidebar:
 # 📂 FUNGSI LOAD JSON (AUTO SEARCH)
 # --------------------- #
 def load_json(filename):
-    # Coba cari di folder data/
-    data_path_1 = os.path.join("data", filename)
-
-    for path in [data_path_1]:
-        if os.path.exists(path):
-            try:
-                with open(path, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception as e:
-                st.warning(f"⚠️ Error loading {path}: {e}")
-                return None
-    
-    st.warning(f"⚠️ File {filename} not found in either /data or root folder.")
-    return None
-
+    """Load JSON file safely from the /data folder"""
+    path = os.path.join(DATA_DIR, filename)
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return None
+        
 # --------------------- #
 # 📁 LOAD SEMUA DATA
 # --------------------- #
 verbal_data = load_json("hasil_final_evaluasi_assesment_verbal.json")
 nonverbal_data = load_json("hasil_final_evaluasi_assesment_noVerbal.json")
-final_data = load_json("hasil_final_evaluasi_assesment.json")
+final_data = load_json("hasil_final_evaluasi_assesment.json")e
 
 # --------------------- #
 # 📤 UPLOAD SECTION
@@ -304,5 +297,6 @@ st.markdown("""
     Project Capstone Asah led by Dicoding in association with Accenture
 </div>
 """, unsafe_allow_html=True)
+
 
 
