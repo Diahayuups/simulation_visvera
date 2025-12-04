@@ -124,8 +124,11 @@ with st.sidebar:
     st.write("- hasil_final_evaluasi_assesment.json")
 
 # --------------------- #
-# 📂 FUNGSI LOAD JSON (AUTO SEARCH)
+# 📂 FUNGSI LOAD JSON 
 # --------------------- #
+# --- PATH SETUP (biar file /data selalu bisa diakses di cloud) ---
+BASE_DIR = os.path.dirname(__file__)
+DATA_DIR = os.path.join(BASE_DIR, "data")
 def load_json(filename):
     """Load JSON file safely from the /data folder"""
     path = os.path.join(DATA_DIR, filename)
@@ -297,6 +300,7 @@ st.markdown("""
     Project Capstone Asah led by Dicoding in association with Accenture
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
