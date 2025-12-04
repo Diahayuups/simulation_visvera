@@ -1,0 +1,37 @@
+[
+    {
+        "assesment_verbal": "Assessment for Question 1",
+        "question": "Can you share any specific challenges you faced while working on certification and how you overcame them?",
+        "verbal_formula_score": 75.25,
+        "score": 3,
+        "reason": "The candidate identified a specific and relevant challenge (meeting accuracy metrics) and described a basic solution (trial and error with model architecture, including adding layers and dropout). The explanation was clear but lacked the depth and detailed examples required for a top score."
+    },
+    {
+        "assesment_verbal": "Assessment for Question 2",
+        "question": "Can you describe your experience with transfer learning in TensorFlow? How did it benefit your projects?",
+        "verbal_formula_score": 75.0,
+        "score": 3,
+        "reason": "The candidate demonstrated a good general understanding of transfer learning, correctly defining it, naming specific models (VGG16, MobileNet), and explaining their benefits. However, the response lacked a description of a specific personal project where these techniques were applied, which was a key part of the question."
+    },
+    {
+        "assesment_verbal": "Assessment for Question 3",
+        "question": "Describe a complex TensorFlow model you have built and the steps you took to ensure its accuracy and efficiency.",
+        "verbal_formula_score": 73.5,
+        "score": 3,
+        "reason": "The candidate described a relevant project and provided a strong, specific example of how they addressed an accuracy challenge (imbalanced data with SMOTE). However, the response lacked detail on the model's overall architecture and did not address the 'efficiency' part of the question."
+    },
+    {
+        "assesment_verbal": "Assessment for Question 4",
+        "question": "Explain how to implement dropout in a TensorFlow model and the effect it has on training.",
+        "verbal_formula_score": 86.75,
+        "score": 4,
+        "reason": "The candidate provided a clear and detailed explanation of how to implement a dropout layer, including its placement in a model and specific rate parameters. They also accurately described its effect on training by explaining how it randomly deactivates neurons to improve accuracy and reduce validation loss, which demonstrates a comprehensive understanding."
+    },
+    {
+        "assesment_verbal": "Assessment for Question 5",
+        "question": "Describe the process of building a convolutional neural network (CNN) using TensorFlow for image classification.",
+        "verbal_formula_score": 79.0,
+        "score": 3,
+        "reason": "The candidate provided a well-structured, step-by-step description of the data preparation and model architecture phases of building a CNN, mentioning specific layers and parameters. However, the response was incomplete as it omitted the crucial steps of compiling the model (selecting a loss function and optimizer) and the training process."
+    }
+]

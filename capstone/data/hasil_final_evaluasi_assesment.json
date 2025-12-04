@@ -1,0 +1,49 @@
+{
+    "assessorProfile": {
+        "id": 47,
+        "name": "Visvera System",
+        "photoUrl": "https://i.imgur.com/sample-avatar.png"
+    },
+    "decision": "Need Human",
+    "reviewedAt": "2025-12-04 10:15:30",
+    "scoresOverview": {
+        "project": 100,
+        "interview": 80,
+        "total": 90
+    },
+    "reviewChecklistResult": {
+        "project": [],
+        "interviews": {
+            "minScore": 3,
+            "maxScore": 4,
+            "scores": [
+                {
+                    "question_id": 1,
+                    "score": 3,
+                    "reason": "The candidate identified a specific and relevant challenge (meeting accuracy metrics) and described a basic solution (trial and error with model architecture, including adding layers and dropout). The explanation was clear but lacked the depth and detailed examples required for a top score."
+                },
+                {
+                    "question_id": 2,
+                    "score": 3,
+                    "reason": "The candidate demonstrated a good general understanding of transfer learning, correctly defining it, naming specific models (VGG16, MobileNet), and explaining their benefits. However, the response lacked a description of a specific personal project where these techniques were applied, which was a key part of the question."
+                },
+                {
+                    "question_id": 3,
+                    "score": 3,
+                    "reason": "The candidate described a relevant project and provided a strong, specific example of how they addressed an accuracy challenge (imbalanced data with SMOTE). However, the response lacked detail on the model's overall architecture and did not address the 'efficiency' part of the question."
+                },
+                {
+                    "question_id": 4,
+                    "score": 4,
+                    "reason": "The candidate provided a clear and detailed explanation of how to implement a dropout layer, including its placement in a model and specific rate parameters. They also accurately described its effect on training by explaining how it randomly deactivates neurons to improve accuracy and reduce validation loss, which demonstrates a comprehensive understanding."
+                },
+                {
+                    "question_id": 5,
+                    "score": 3,
+                    "reason": "The candidate provided a well-structured, step-by-step description of the data preparation and model architecture phases of building a CNN, mentioning specific layers and parameters. However, the response was incomplete as it omitted the crucial steps of compiling the model (selecting a loss function and optimizer) and the training process."
+                }
+            ]
+        }
+    },
+    "overallNotes": "The candidate demonstrated solid verbal understanding, though some answers lacked depth. Nonverbal performance was good, with excellent gaze control, but was slightly impacted by the face being briefly undetected on several occasions."
+}

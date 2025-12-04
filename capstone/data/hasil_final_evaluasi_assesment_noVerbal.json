@@ -1,0 +1,18 @@
+{
+    "assessment_nonVerbal": {
+        "metrics": {
+            "face_missing_count": 5,
+            "face_missing_total_duration": 5.28,
+            "gaze_away_count": 0,
+            "gaze_away_total_duration": 0.0,
+            "max_gaze_away_duration": 0.0
+        },
+        "scores": {
+            "FaceFocus": 2,
+            "GazeMovement": 4
+        },
+        "nonVerbal_formula_score": 3.0,
+        "final_score": 3,
+        "summary": "The candidate demonstrated excellent gaze control with no instances of looking away. However, the face was briefly undetected 5 times, impacting the overall score. The final nonverbal performance is rated as good."
+    }
+}
