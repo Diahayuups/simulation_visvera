@@ -129,10 +129,8 @@ with st.sidebar:
 def load_json(filename):
     # Coba cari di folder data/
     data_path_1 = os.path.join("data", filename)
-    # Coba cari di root folder
-    data_path_2 = filename
 
-    for path in [data_path_1, data_path_2]:
+    for path in [data_path_1]:
         if os.path.exists(path):
             try:
                 with open(path, "r", encoding="utf-8") as f:
@@ -306,4 +304,5 @@ st.markdown("""
     Project Capstone Asah led by Dicoding in association with Accenture
 </div>
 """, unsafe_allow_html=True)
+
 
