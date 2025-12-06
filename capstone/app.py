@@ -34,7 +34,8 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px !important;  /* 🔽 ubah dari default 20px atau 40px */
+    margin-top: -10px !important;   /* 🔼 sedikit naik */
 }
 
 /* === HEADINGS === */
@@ -309,6 +310,7 @@ st.markdown("""
     Project Capstone Asah led by Dicoding in association with Accenture
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
