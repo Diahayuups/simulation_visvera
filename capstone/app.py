@@ -92,33 +92,28 @@ st.title("Visvera - AI Interview Evaluation System")
 
 st.markdown("""
 <div style="
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(0, 128, 128, 0.15);
     padding: 14px 18px;
     border-radius: 10px;
-    border: 1px solid rgba(255,255,255,0.08);
+    border: 1px solid rgba(6,214,160,0.4);
     font-size: 14px;
-    color: #f5f5f5;
 ">
 <b>ℹ️ Note for Assessors & Reviewers:</b><br>
-This Streamlit app demonstrates a <b>simulated version of the Visvera AI Interview Evaluation pipeline</b>. 
-All AI models (Speech-to-Text, Verbal, Nonverbal, and Final Scoring) were executed locally, 
-while this app focuses on visualizing the <b>workflow and final results</b> for demonstration purposes.
-The full model pipeline cannot be executed on Streamlit Cloud due to hardware limitations.
+This Streamlit app demonstrates a <b>simulated version</b> of the Visvera AI Interview Evaluation pipeline.  
+All AI models were executed locally; this version visualizes the workflow and final results for demonstration only.
 </div>
-""", unsafe_allow_html=True)
 
-st.markdown("""
 <div style="
     background-color: rgba(255, 255, 255, 0.04);
     padding: 14px 18px;
     border-radius: 10px;
     border: 1px solid rgba(255,255,255,0.08);
     font-size: 14px;
+    margin-top: 12px;
 ">
-    <b>🧠 Visvera System Simulation</b><br>
-    This application showcases the AI-based interview evaluation system developed by our team.<br>
-    All scores and analyses are generated directly from our custom-built models, 
-    but this version functions as a <b>simulation</b> and is intended solely for demonstration purposes.
+<b>🧠 Visvera System Simulation</b><br>
+This application showcases the AI-based interview evaluation system developed by our team.  
+All scores and analyses are generated directly from our models, but this version is a <b>simulation</b> for demonstration purposes.
 </div>
 """, unsafe_allow_html=True)
 
@@ -318,6 +313,7 @@ st.markdown("""
     Project Capstone Asah led by Dicoding in association with Accenture
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
