@@ -89,7 +89,7 @@ h2, h3, h4 {
 # --------------------- #
 # 🧠 HEADER
 # --------------------- #
-st.tittle("Visvera – AI Interview Evaluation System")
+st.title("Visvera – AI Interview Evaluation System")
 
 st.markdown("""
 <div style="
@@ -307,6 +307,7 @@ st.markdown("""
     Project Capstone Asah led by Dicoding in association with Accenture
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
