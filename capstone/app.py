@@ -89,10 +89,15 @@ h2, h3, h4 {
 # --------------------- #
 # 🧠 HEADER
 # --------------------- #
-st.title("Visvera - AI Interview Evaluation System")
+st.markdown("""
+<h1 style="text-align:center; margin-bottom:5px;">
+Visvera – AI Interview Evaluation System
+</h1>
 <h4 style="text-align:center; color:#06D6A0; font-weight:500; margin-top:-5px;">
 Simulation Version
 </h4>
+""", unsafe_allow_html=True)
+
 
 st.markdown("""
 <div style="
@@ -310,6 +315,7 @@ st.markdown("""
     Project Capstone Asah led by Dicoding in association with Accenture
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
