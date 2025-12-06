@@ -101,7 +101,8 @@ st.markdown("""
     line-height: 1.6;
     text-align: center;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 10px auto 0 auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 ">  <h3 style="text-align:center; color:#06D6A0; font-weight:500; margin-top:-5px;"> Simulation Version </h3>
     This application presents a <b>simulated version</b> of the <b>Visvera AI Interview Evaluation System</b>.  
     All AI models — including Speech-to-Text (Whisper), Verbal, Nonverbal, and Final Scoring — have been developed and tested locally by our team.  
@@ -307,6 +308,7 @@ st.markdown("""
     Project Capstone Asah led by Dicoding in association with Accenture
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
