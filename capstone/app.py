@@ -89,15 +89,7 @@ h2, h3, h4 {
 # --------------------- #
 # 🧠 HEADER
 # --------------------- #
-st.markdown("""
-<h1 style="text-align:center; margin-bottom:5px;">
-Visvera – AI Interview Evaluation System
-</h1>
-<h4 style="text-align:center; color:#06D6A0; font-weight:500; margin-top:-5px;">
-Simulation Version
-</h4>
-""", unsafe_allow_html=True)
-
+st.tittle("Visvera – AI Interview Evaluation System")
 
 st.markdown("""
 <div style="
@@ -110,7 +102,7 @@ st.markdown("""
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
-">
+">  <h3 style="text-align:center; color:#06D6A0; font-weight:500; margin-top:-5px;"> Simulation Version </h3>
     This application presents a <b>simulated version</b> of the <b>Visvera AI Interview Evaluation System</b>.  
     All AI models — including Speech-to-Text (Whisper), Verbal, Nonverbal, and Final Scoring — have been developed and tested locally by our team.  
     Due to <b>Streamlit Cloud resource limitations</b>, this version focuses on demonstrating the <b>workflow and final results</b> for visualization purposes only.  
@@ -315,6 +307,7 @@ st.markdown("""
     Project Capstone Asah led by Dicoding in association with Accenture
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
